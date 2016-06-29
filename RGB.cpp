@@ -272,7 +272,7 @@ int RGB::getColor ()
     color=1;
   else if (H>180 && H<270)
     color=3;
-  else if (H>75 && H<150)
+  else if (H>60 && H<150)
     color=2;
   else
     color=0;
